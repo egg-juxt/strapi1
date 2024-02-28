@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "guidance_tabs",
+  "info": {
+    "singularName": "guidance-tab",
+    "pluralName": "guidance-tabs",
+    "displayName": "Guidance Tab",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "content.callout-with-link",
+        "content.text-block",
+        "content.info-block"
+      ]
+    }
+  }
+}
